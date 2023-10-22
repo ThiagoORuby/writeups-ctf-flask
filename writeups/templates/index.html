@@ -5,38 +5,48 @@
 {% endblock %}
 
 {% block content %}
-<div class="row mx-5 text-center">
-    <div class="card mx-auto">
-        <div class="card-header"> 
-            Grupo - Metasploiters
-        </div>
-        <div class="card-body">
-            <div class="row row-cols-2">
-                <div class="col">
-                    Thiago Ribeiro
+<div class="container-fluid mx-auto my-5 w-50">
+    <div class="row">
+        <div class="card-shadow">
+            <div class="card text-center">
+                <div class="card-header">
+                    <strong>Equipe:</strong> 
+                    METASPLOITERS
                 </div>
-                <div class="col">
-                    Gabriel Carvalho
-                </div>
-                <div class="col">
-                    Erick Keven
-                </div>
-                <div class="col">
-                    Iasmin Cristina
+                <div class="card-body">
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            Thiago Ribeiro
+                        </div>
+                        <div class="col">
+                            Gabriel Carvalho
+                        </div>
+                        <div class="col">
+                            Iasmin Cristina
+                        </div>
+                        <div class="col">
+                            Erick Keven
+                        </div>
+                        <div class="col">
+                            Otávio Barbosa
+                        </div>
+                        <div class="col">
+                            Gabriel Nicácio
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 
-<div class="row mt-4">
-    <ul class="list-group">
-        {% for file in files %}
-            <li class="list-group-item">
-                <a href="{{url_for('writeup', filename=file)}}">{{file}}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <div class="row mt-4">
+        <ul class="list-group">
+            {% for file in files %}
+                <li class="list-group-item">
+                    <a href="{{url_for('writeup', filename=file)}}">{{file}}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
-
 {% endblock %}

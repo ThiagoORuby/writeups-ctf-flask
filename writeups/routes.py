@@ -15,7 +15,7 @@ def index():
 
     return render_template('index.html', files = files)
 
-@app.route("/<filename>")
+@app.route("/writeup/<filename>")
 def writeup(filename):
 
     content = open(os.path.join(basedir, f'static/markdown/{filename}'), 'r', encoding="utf-8")
