@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ filename }}
+{% endblock %}
+
+{% block content %}
+    <div class="container-fluid mx-auto my-5 w-75">
+        <div class="markdown-body">
+            {{ md | safe }}
+        </div>
+    </div>
+{% endblock %}
+    
