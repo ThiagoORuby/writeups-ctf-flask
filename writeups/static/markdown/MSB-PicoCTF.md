@@ -54,6 +54,8 @@ def MSB(file, outputFile):
   resultFile.close()
 ```
 
+> "Your worship should bear in mind,Senor Don Quixote, that if the knight has done what was commanded himin going to present himself before my lady Dulcinea del Toboso, he willhave done all that he was bound to do, and does not deserve furtherpunishment unless he commits some new offence."picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_06326238}"Thou hast said well and hit the point," answered Don Quixote; and so Irecall the oath in so far as relates to taking fresh vengeance on him,but I make and confirm it anew to lead the life I have said until suchtime as I take by force from some knight another helmet such as thisand as good; and think not, Sancho, that I am raising smoke with strawin doing so, for I have one to imitate in the matter, since the verysame thing to a hair happened in the case of Mambrino's helmet, whichcost Sacripante so dear.""Senor," replied Sancho, "let your worship send all such oaths to thedevil, for they are very pernicious to salvation and prejudicial to theconscience; just tell me now, if for
+
 ![](../static/markdown/src/msb.png)
 
 
